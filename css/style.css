@@ -1,0 +1,608 @@
+.clearfix::after {
+     display: block;
+     content: "";
+     clear: both;
+}
+
+h2, h3, p, a {
+	color: #333;
+}
+hr {
+	border-top: none;
+	border-color: #cfd8dc;
+}
+hr.dark {
+	border-color: #bdbdbd;
+}
+ul {
+	list-style: none;
+	padding: 0 0;
+}
+a {
+	text-decoration: none;
+}
+h2 {
+    margin-top: 54px;
+    /* почему margin сдвигает всю секцию??? */
+	font-family: GothamPM;
+	font-size: 48px;
+	line-height: 65px;
+	text-align: center;
+	margin-bottom: 0px;
+}
+h3 {
+	font-family: GothamP;
+	font-size: 48px;
+}
+.wrapper {
+	width: 1170px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.head {
+	font-family: GothamPM;
+	font-size: 20px;
+	color: #333;
+}
+
+
+/* section 1 */
+.section_1 {
+	width: 100%;
+	background: url("../img/bg.png") no-repeat;
+	background-position-x: center;
+}
+.section_1 .top {
+	text-align: center;
+	padding-top: 86px;
+}
+.section_1 .top h1 {
+	font-family: GothamPB;
+	font-size: 60px;
+	color: #fff;
+	margin: 0;
+}
+.section_1 .top p {
+	font-family: GothamP;
+	font-size: 30px;
+	color: #fff;
+	margin-top: 10px;
+}
+.section_1 .unlim {
+	width: 50%;
+	float: right;
+	margin-top: 129px;
+    padding-bottom: 248px;
+}
+.section_1 .unlim .first {
+	font-family: GothamPM;
+	font-size: 42px;
+	color: #b6f1ff;
+}
+.section_1 .unlim .second {
+	font-family: GothamP;
+	font-size: 30px;
+	color: #fff;
+	margin-top: 56px;
+    line-height: 48px;
+}
+.section_1 .unlim .btn {
+	display: inline-block;
+	background-color: #ff1744;
+	border-radius: 5px;
+    box-shadow: 0px 3px 1px 0px #d50000;
+	padding: 22px 31px;
+	margin-top: 37px;
+}
+.section_1 .unlim .btn a {
+
+	font-family: GothamPBl;
+	font-size: 24px;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+
+/* section 2 */
+.section_2 .wrapper, .section_3 .wrapper {
+	text-align: center;
+	padding-top: 55px;
+}
+.section_2 h2 {
+	margin: 0 0 39px 0;
+}
+.section_2 .wrapper > div {
+	width: 238px;
+	margin: 54px 25px;
+	text-align: center;
+	display: inline-block;
+}
+.section_2 .icon {
+	width: 60px;
+	height: 74px;
+	margin: 0 auto 6px;
+	background: url("../img/icons.png");
+}
+.section_2 .head {
+	line-height: 27px;
+}
+.section_2 .text {
+	font-family: GothamPL;
+	font-size: 20px;
+	color: #333;    
+	line-height: 27px;
+}
+.section_2 .events .icon {
+	background-position: -60px 0;
+}
+.section_2 .money .icon {
+	background-position: -124px 0;
+}
+.section_2 .time .icon {
+	background-position: -187px 0;
+}
+.section_2 .income .icon {
+	background-position: -250px 0;
+}
+.section_2 .easy .icon {
+	background-position: 0 74px;
+}
+.section_2 .indiv .icon {
+	background-position: -62px 74px;
+}
+.section_2 .results .icon {
+	background-position: -124px 74px;
+}
+.section_2 .support .icon {
+	background-position: -188px 74px;
+}
+.section_2 .freedom .icon {
+	background-position: -250px 74px;
+}
+
+
+/* section 3 */
+.section_3 {
+	background-color: #f5f5f5;
+}
+.section_3 h2 {
+	margin: 0;
+}
+/*.section_3 .wrapper > p {*/
+p.title {
+	font-family: GothamPL;
+	font-size: 24px;
+	margin-top: 8px;
+	/*text-align: center;*/
+}
+.section_3 .left .pic, .section_3 .left .desc  {
+	float: left;
+	text-align: left;
+}
+.section_3 .right .pic, .section_3 .right .desc {
+	float: right;
+	text-align: right;
+}
+.section_3 .wrapper > div {
+	overflow: hidden;
+}
+.section_3 .left .pic {
+	margin: 65px 89px 56px;
+}
+.section_3 .left .desc {
+	margin: 28px 20px;
+}
+.section_3 .right .pic {
+	margin: 79px 112px 55px;
+}
+.section_3 .right .desc {
+	 margin: 94px -2px 0;
+}
+.section_3 div .pic {
+	width: 384px;
+	height: 523px;
+}
+.section_3 div .desc {
+	width: 542px;
+}
+.section_3 div .desc p:not(.first) {
+	font-family: GothamPL;
+	font-size: 18px;
+	line-height: 30px;
+	margin-top: 30px;
+}
+.section_3 div .desc p.first {
+	font-family: GothamPL;
+	font-size: 24px;
+	margin-top: -26px;
+    margin-bottom: 53px;
+}
+
+
+/* section 4 */
+.section_4 .col{
+	width: 50%;
+	float: left;
+	overflow: hidden;
+	box-sizing: border-box;
+	padding: 0px 99px;
+	margin: 80px 0 64px;
+}
+.section_4 .col > div {
+    width: 340px;
+    float: left;
+	text-align: center;
+}
+.section_4 .icon {
+	width: 164px;
+	height: 63px;
+	background: url(../img/4_1.png) no-repeat;
+	color: #fff;
+	font-family: GothamPM;
+	font-size: 36px;
+	text-align: center;
+	padding-top: 6px;
+	margin: 0 auto;
+}
+.section_4 .head {
+	margin: 14px 0;
+	letter-spacing: 0.9px;
+	font-family: GothamPM;
+	font-size: 20px;
+	color: #414141;
+}
+.section_4 .text {
+	font-family: GothamPL;
+	font-size: 18.6px;
+	color: #414141;   
+	line-height: 31px;
+}
+.btn {
+	text-align: center;
+	margin-bottom: 80px;
+}
+.btn a {
+	font-family: GothamPB;
+	font-size: 18px;
+	color: #ff1744;
+	text-transform: uppercase;
+	text-decoration: none;
+	border: 3px solid #ff1744;
+	border-radius: 5px;
+	padding: 21px 27px;
+}
+
+
+/* section 5 */
+.section_5 {
+	position: relative;
+	background-color: #fafafa;
+	text-align: center;
+}
+.section_5 .balloon {
+	position: absolute;
+	top: -123px;
+    left: 103px;
+	width: 175px;
+	height: 215px;
+	background: url(../img/baloon.png);
+}
+.section_5 .present {
+	position: relative;
+	display: inline-block;
+	top: -102px;
+    left: 380px;
+}
+.section_5 .present::before {
+	content: "В подарок";
+	padding: 8px 17px;
+    border-radius: 5px;
+	font-family: GothamPM;
+	font-size: 18px;
+	color: #fff;
+	background-color: #ff1744;
+}
+.section_5 .present::after {
+    content: '';
+    position: absolute;
+    left: -12px;
+    bottom: 4px;
+    border: 6px solid transparent;
+    border-right: 6px solid #ff1744;
+}
+.section_5 .text {
+	margin-top: 73px;
+	padding: 0 200px;
+}
+.section_5 .text p.head {
+	font-family: GothamPM;
+	font-size: 24px;
+	margin-bottom: 34px;
+}
+.section_5 .text p {
+	font-family: GothamPL;
+	font-size: 18px;
+	line-height: 30px;
+	margin-top: 25px;
+}
+.section_5 .img {
+	margin-top: 75px;
+}
+
+
+/* section 6 */
+.section_6 .video {
+	text-align: center;
+    margin: 65px 0;
+}
+.section_6 iframe {
+	width: 441px;
+    height: 346px;
+    border-radius: 3px;
+}
+
+
+/* section 7 */
+.section_7 .tabs {
+	margin-top: 69px;
+	margin-bottom: 60px;
+}
+.section_7 .tab-tab {
+	margin-bottom: 26px;
+}
+.section_7 .tab-tab li {
+	float: left;
+	margin: 0 63px;
+	position: relative;
+}
+.section_7 .tab-img {
+	width: 79px;
+	height: 120px;
+	margin: 0 auto;
+}
+.section_7 .tab-img img {
+	max-height: 120px;
+    max-width: 75px;
+}
+.section_7 .tab-name {
+	margin-top: 30px;
+	font-family: GothamPL;
+	font-size: 18px;
+	text-decoration: none;
+}
+.section_7 .tab-tab .active .tab-name {
+	font-family: GothamPM;
+}
+
+.section_7 .tab-tab .active::after {
+	content: "";
+    display: block;
+    position: absolute;
+    bottom: -30px;
+    width: 100%;
+    height: 7px;
+	border-radius: 10px;
+    background: #ff1744;
+	transition: 0.5s;
+}
+.section_7 .tab-cont > ul > li {
+	/*display: none;*/
+	position: absolute;
+	visibility:hidden;
+	opacity:0;
+	transition: 0.5s;
+}
+.section_7 .tab-cont > ul > li.active {
+	/*display: block;*/
+	position: static;
+	visibility:visible;
+	opacity:1;
+}
+.section_7 .tab-cont > ul > li > div {
+	width: 50%;
+	margin-top: 92px;
+}
+.left-col {
+	float: left;
+}
+.right-col {
+	float: right;
+}
+.section_7 .tab-cont li .left-col {
+	box-sizing: border-box;
+    padding-top: 34px;
+    padding-left: 15px;
+}
+.section_7 .tab-cont li .right-col ul {
+	margin-top: 64px;
+	margin-left: 19px;
+	padding: 0 0;
+}
+.section_7 .tab-cont li .right-col ul li {
+	font-family: GothamPL;
+	font-size: 18px;
+	color: #333;
+	line-height: 31px;
+    margin: 29px 0;
+    color: #ff1744;
+}
+.section_7 .tab-cont li .right-col ul li span {
+	color: #333;
+}
+.section_7 .tab-cont li .right-col ul {
+	list-style: disc outside;
+}
+.section_7 h3 {
+	margin: 0 0;
+}
+
+
+/* section 8 */
+.section_8 h2 {
+	font-family: GothamP;
+	font-size: 36px;
+}
+.section_8 .content {
+	text-align: center;
+	margin-top: 39px;
+}
+.section_8 .content > p {
+	font-family: GothamPM;
+	font-size: 20px;
+	margin-bottom: 25px;
+}
+.section_8 .counter {
+	margin-bottom: 50px;
+}
+.section_8 .counter > div {
+	display: inline-block;
+	margin: 0px 8px;
+}
+.section_8 .counter .time {
+    width: 76px;
+    padding: 10px 0;
+    border-radius: 5px;
+	background-color: #ff1744;
+    display: inline-block;
+    font-family: GothamPM;
+    font-size: 48px;
+	color: #fff;
+	text-align: center;
+	cursor: default;
+}
+.section_8 .counter p {
+	font-family: GothamPL;
+	font-size: 18px;
+}
+
+
+/* section 9 */
+.section_9 {
+	background-color: #fafafa;
+}
+.section_9 .content {
+	margin-bottom: 80px;
+}
+.section_9 .row {
+	padding-left: 208px;
+	margin-top: 52px;
+}
+.section_9 .calendar {
+	width: 60px;
+	height: 50px;
+	background: url(../img/section_8.png);
+	margin-top: 6px;
+}
+.section_9 .wallet {
+	width: 55px;
+	height: 50px;
+	background: url(../img/section_8.png) 55px 0;
+	margin-top: 25px;
+}
+.section_9 .desc {
+	width: 595px;
+	margin-left: 38px;
+	line-height: 28px;
+}
+.text {
+	font-family: GothamPL;
+	font-size: 18px;
+}
+.section_9 .text span {
+	font-family: GothamPM;
+	font-size: 20px;
+}
+.section_9 .text a {
+	color: #ff1744;
+}
+
+
+/* section 10 */
+.section_10 .steps {
+	text-align: center;
+	margin-top: 64px;
+	margin-bottom: 72px;
+}
+.section_10 .steps > li {
+	display: inline-block;
+	width: 200px;
+	position: relative;
+	margin: 0 44px;
+}
+.section_10 .steps .step {
+	width: 88px;
+	height: 88px;
+	border-radius: 45px;  
+	margin: 0 auto 34px;  
+}
+.section_10 .steps .text {
+	margin-top: 5px;
+    line-height: 29px;
+}
+.section_10 .steps .step-1 {
+	background: url("../img/step-1.png") no-repeat center #ff1744;
+}
+.section_10 .steps .step-2 {
+	background: url("../img/step-2.png") no-repeat center #ff1744;
+}
+.section_10 .steps .step-3 {
+	background: url("../img/step-3.png") no-repeat center #ff1744;
+}
+.section_10 .steps .step-4 {
+	background: url("../img/step-4.png") no-repeat center #ff1744;
+}
+.section_10 .steps > li::after {
+	content: url(../img/direction.png);
+	display: inline-block;
+    position: absolute;
+    top: 32px;
+    left: 238px;
+}
+.section_10 .steps > li:last-child::after {
+	display: none;
+}
+.section_10 .active-step .head, .section_10 .active-step .text {
+	color: #ff1744;
+}
+
+
+/* section 11 */
+.section_11 .content {
+	margin-top: 44px;
+	margin-bottom: 70px;
+    padding: 0 210px;
+}
+.section_11 .content > div {
+	margin-bottom: 48px;
+}
+.section_11 .text {
+	margin-top: 35px;
+    line-height: 30px;
+}
+.section_11 .head::before {
+	width: 34px;
+	height: 34px;
+	display: inline-block;
+	content: url(../img/question.png);
+	margin-right: 30px;
+	position: relative;
+	top: 12px;
+    left: 1px;
+}
+
+
+/* footer */
+.footer {
+	background-color: #303f9f;
+	text-align: center;
+}
+.footer .content {
+	padding: 56px 0;
+}
+.footer p {
+	font-family: GothamPL;
+	font-size: 18px;
+	color: #fff;
+	margin: 15px 0;
+}
